@@ -2,9 +2,9 @@ name: Publish Gradle Plugin to Github Packages
 
 on:
   pull_request:
-    branches: [ master, main ]
+    branches: [ '261' ]
   push:
-    branches: [ master, main ]
+    branches: [ '261' ]
 
 jobs:
   publish:
